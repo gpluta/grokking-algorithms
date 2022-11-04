@@ -23,5 +23,3 @@ export function selectionSort(list: number[]): number[] {
 
   return sorted
 }
-
-console.log(selectionSort([1, 5, 4, 7, 9, 12, 55, 2, 3, 14]))
