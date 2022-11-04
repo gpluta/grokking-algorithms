@@ -4,12 +4,6 @@ for (let i = 1; i <= 1_000; i++) {
   myList.push(i)
 }
 
-/**
- * Returns index of the searched element
- *
- * @param list
- * @param search
- */
 export function binarySearch(list: number[], search: number): number | null {
   let lowIdx = 0
   let highIdx = list.length - 1
